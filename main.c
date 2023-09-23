@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <time.h>
-
+// aici as extrage pula in pizda ma-tii
 void generateSeed() {
     int pid = getpid();
     time_t sysTime = time(NULL);
